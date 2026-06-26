@@ -18,7 +18,7 @@ public class CS106A_InchesToCentimeters extends ConsoleProgram
 	}
 	
 	
-	private void promptUser()
+	public void promptUser()
 	{
 		println("This program converts inches to centimeters.");
 		double inches = readDouble("Enter value inches: ");
